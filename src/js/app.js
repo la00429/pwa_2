@@ -1,5 +1,5 @@
 const img = new Image();
-navigator.serviceWorker.register('sw.js', { scope: '../' })
+navigator.serviceWorker.register('sw.js')
     .then(reg => console.log('SW registered!', reg))
     .catch(err => console.log(err));
 
