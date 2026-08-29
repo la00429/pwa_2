@@ -1,9 +1,19 @@
 <!DOCTYPE html>
-<script src="./js/app.js"></script>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA - Service Worker</title>
+</head>
 <body>
-    <p>Una imagen aparecerá en breves
-        momentos:</p>
-</body>
+    <h2>Imagen del animal (haz clic para cambiarla):</h2>
+    <div id="dynamic-image-container"></div>
 
-</html>
+    <hr>
+
+    <h2>Imagen rota (el SW la rescata con el gato):</h2>
+    <img src="imagen-rota.jpg" width="150" alt="Fallback del SW">
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
